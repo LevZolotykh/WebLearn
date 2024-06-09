@@ -1,0 +1,189 @@
+* {
+  /*ко всем элементам на странице*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 1250px;
+
+  background-color: blue;
+  margin: 0 auto; /*центрирование. auto максимально отодвигает от стороны. 4 параметра от верха по часовой стрелке */
+  display: flex;
+  font-family: "Mulish", "Times New Roman", Times;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.text {
+  color: #7d7987;
+}
+
+.small_line {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  position: relative; /*позиционирование относительно родителя*/
+  top: -10px;
+}
+
+.small_btn {
+  border-radius: 40px; /*делает закруглённые концы*/
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6; /*solid делает рамку сплошной, после чего можно сразу задать ей цвет*/
+  color: #458ff6;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Mulish", "Times New Roman", Times;
+}
+
+.big_btn {
+  border-radius: 40px;
+  width: 350px;
+  height: 354px;
+  padding-left: 40px;
+  border: none;
+  display: flex;
+  text-align: left;
+  font-family: "Mulish", "Times New Roman", Times;
+  align-items: center;
+}
+
+.navbar {
+  width: 470px;
+  height: 70px;
+  margin: 0 0 0 auto;
+  background-color: red;
+  font-family: "Mulish", "Times New Roman", Times;
+  font-size: 18px;
+  color: #7d7987;
+  display: flex; /*выставляет дочерние элементы по горизонтали*/
+  justify-content: space-evenly; /*равномерные отступы. Работает с display flex*/
+  align-items: center; /*Вертикальное выравнивание. Работает с display flex*/
+}
+.navbar div:hover {
+  font-weight: bold;
+  color: black;
+
+  cursor: pointer;
+}
+
+.def_text {
+  font-size: 18px;
+  color: #7d7987;
+}
+
+.frst_slide {
+  width: 1120px;
+  height: 445px;
+  margin: 0 auto;
+  background-color: #458ff6;
+}
+
+.whole_carousel {
+  position: relative;
+}
+
+.btn_circle {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+#frst_header {
+  height: 70px;
+}
+
+#bigbox1 {
+  width: 1250px;
+  height: 670px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+}
+
+#main_img {
+  width: 693px;
+  height: 598px;
+  margin: auto 0 0 0;
+}
+
+#intro {
+  width: 445px;
+  align-content: center;
+  margin: auto auto auto 0;
+}
+
+#SubHeader {
+  font-family: "Mulish", "Times New Roman", Times;
+  font-size: 48px;
+  text-align: left;
+}
+
+#inner_text {
+  font-family: "Mulish", "Times New Roman", Times;
+  font-size: 21px;
+  text-align: left;
+  font-weight: 200; /*толщина шрифта*/
+}
+
+#consulting {
+  background-color: #458ff6;
+  color: white;
+
+  font-family: "Mulish", "Times New Roman", Times;
+  font-size: 18px;
+}
+
+/*Следующая часть*/
+
+#scnd_header {
+  height: 177px;
+  width: 952px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: blue;
+}
+
+#Services {
+  background-color: green;
+  width: 1120px;
+  height: 745px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#Learn_more {
+  display: block; /*Теперь элемент имеет тип отображения как блочный. Теперь он занимает всю ширину и с новой строки*/
+  margin: 0 auto;
+}
+
+/* следующая часть */
+
+#bigbox2 {
+  width: 1273px;
+  height: 477px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+}
